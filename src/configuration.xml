@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AMMModuleConfiguration>
+   <module name="TCP_bridge_module" manufacturer="CREST" model="AJAMS" serial_number="0" module_version="0.1.0">
+      <capabilities>
+         <capability name="data_viewer">
+            <subscribed_topics>
+               <topic name="AMM_Node_Data" nodepath="Respiratory_Respiration_Rate"/>
+               <topic name="AMM_Node_Data" nodepath="Cardiovascular_HeartRate"/>
+               <topic name="AMM_Command" />
+            </subscribed_topics>
+            <published_topics>
+               <topic name="AMM_Render_Modification" />
+               <topic name="AMM_Physiology_Modification" />
+               <topic name="AMM_Command" />
+            </published_topics>
+         </capability>
+      </capabilities>
+   </module>
+</AMMModuleConfiguration>

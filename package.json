@@ -1,0 +1,14 @@
+{
+  "name": "tcp-bridge-client",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/tcp-client.js",
+  "scripts": {
+    "start": "node .",
+  },
+  "author": "Rainer Leuschke",
+  "license": "MIT",
+  "dependencies": {
+    "ip": "^1.1.5"
+  }
+}
